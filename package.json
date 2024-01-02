@@ -1,7 +1,7 @@
 {
   "name": "svg-logo-maker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Module 10 Challenge",
   "main": "index.js",
   "directories": {
     "example": "examples",
