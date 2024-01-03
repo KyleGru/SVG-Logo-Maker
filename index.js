@@ -3,6 +3,7 @@ const fs = require('fs');
 const { Circle, Triangle, Square } = require('./lib/shapes');
 const Svg = require("./lib/svg")
 
+// Array of prompts for the user to answer to create an SVG logo.
 const questions = [
     {
         type: 'input',
@@ -28,6 +29,7 @@ const questions = [
     },
 ];
 
+// Call to the inquirer package to prompt the user with the questions in the questions array.
 inquirer
     .prompt(questions)
     .then((response) => {
@@ -48,6 +50,7 @@ inquirer
         svg.setShape(shape);
         svg.setText(response.text, response.textColor);
 
+        // Creates a file in the the examples folder with the users logo.
         fs.writeFile(`examples/logo-${response.text}.svg`, svg.render(), (err) => {
             if (err) console.log(err);
             console.log('You have successfully created your logo!');
