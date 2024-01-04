@@ -18,7 +18,7 @@
 
   Typically a logo created by a graphic designer can be very expensive. This application provides developers the capability to create their own simple logo quickly and efficiantly. 
 
-  Here is a link to the use of this application 
+  Here is a link to the use of this application: https://drive.google.com/file/d/1zMwwvNSO80xFYliLMUhc6vVxcuwCFI3G/view
 
   ## Screenshots
   Example logos:
