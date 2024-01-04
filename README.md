@@ -20,6 +20,12 @@
 
   Here is a link to the use of this application 
 
+  ## Screenshots
+  Example logos:
+  <img width='225' alt='kdg logo' src='https://i.imgur.com/BeZmP4m.png'>
+  <img width='225' alt='buf logo' src='https://i.imgur.com/ZuJ1YXl.png'>
+  <img width='225' alt='chi logo' src='https://i.imgur.com/a6YImmn.png'>
+
   ## What I Learned
   Creating this application, I learned how to use OOP (Object Oriented Programming) to make the code easier to understand. I also utilized the Jest test suite to test that the code was returning the correct shape and color. This was the first time that I have used unit testing within an application I built.
 
